@@ -7,15 +7,16 @@ export default function Background() {
     left: "0",
     width: "100%",
     height: "calc(100% + 10vh)",
-    background: "linear-gradient(135deg,#330867,#31a7bb)",
+    background: "linear-gradient(135deg,#ff1b6b,#45caff)",
     transform: "skewY(-5deg)",
     boxShadow: "0 0 50px rgb(60 117 162 / 40%)",
-    margin: "0 0 0 0",
+    zIndex: "-1",
+    // margin: "0 0 0 0",
   };
 
   return (
     <>
-      <div className="section header" style={backgroundStyle}></div>
+      <div className="section background" style={backgroundStyle}></div>
     </>
   );
 }
