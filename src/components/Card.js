@@ -8,16 +8,6 @@ import DayPlannerImg from "../Assets/images/Work-Day-Scheduler.png";
 import TextEditorImg from "../Assets/images/JATE-PWA-screenshot.png";
 
 export default function WorkCard(props) {
-<<<<<<< HEAD:src/components/Card.js
-  //props
-  // img src imgSrc
-  // demo URL demoLink
-  // github URL gitLink
-  // description text text
-  //
-
-=======
->>>>>>> 5f1994d89564c7516f562adab6f77ae256a603d3:client/src/components/Card.js
   const cardStyle = {
     // position: "absolute",
     // top: "300px",
@@ -96,19 +86,11 @@ export default function WorkCard(props) {
           </Card.Footer>
         </Card>
       </CardGroup> */}
-<<<<<<< HEAD:src/components/Card.js
-      <Row xs={1} md={2} className="g-4">
-        {Array.from({ length: 6 }).map((_, idx) => (
-          <Col style={{ width: "400px", margin: "30px auto" }}>
-            <Card>
-              <Card.Img variant="top" src={props.imgSrc} />
-=======
       {/* <Row xs={1} md={2} className="g-4">
         {Array.from({ length: 6 }).map((_, idx) => (
           <Col style={{ width: "400px", margin: "30px auto" }}>
             <Card>
               <Card.Img variant="top" src={VibeLoungeImg} />
->>>>>>> 5f1994d89564c7516f562adab6f77ae256a603d3:client/src/components/Card.js
               <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text style={{ color: "black" }}>{props.text}</Card.Text>
