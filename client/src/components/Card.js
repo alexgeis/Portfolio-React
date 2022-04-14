@@ -1,20 +1,20 @@
 import React from "react";
 import { Card, CardGroup, Row, Col, Button } from "react-bootstrap";
 import GitHubLogo from "../Assets/images/GitHub-Mark-32px.png";
+import AllPainImg from "../Assets/images/all-pain-no-grain.png";
+import QuizImg from "../Assets/images/quiz-screenshot.png";
+import VibeLoungeImg from "../Assets/images/Vibe-Lounge-graph.png";
 
 export default function WorkCard(props) {
-  //props
-  // img src
-  // github URL
-  //
-
   const cardStyle = {
-    position: "absolute",
-    top: "300px",
-    maxWidth: "50%",
-    maxHeight: "40%",
-    background: "rgba(0,0,0,.6)",
-    padding: "5px",
+    // position: "absolute",
+    // top: "300px",
+    // maxWidth: "50%",
+    // maxHeight: "40%",
+    // background: "rgba(0,0,0,.6)",
+    // padding: "5px",
+    width: "300px",
+    margin: "30px auto",
   };
   const buttonStyle = {
     background: "#ff1b6b",
@@ -83,11 +83,11 @@ export default function WorkCard(props) {
           </Card.Footer>
         </Card>
       </CardGroup> */}
-      <Row xs={1} md={2} className="g-4">
-        {Array.from({ length: 8 }).map((_, idx) => (
+      {/* <Row xs={1} md={2} className="g-4">
+        {Array.from({ length: 6 }).map((_, idx) => (
           <Col style={{ width: "400px", margin: "30px auto" }}>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src={VibeLoungeImg} />
               <Card.Body>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text style={{ color: "black" }}>
@@ -116,6 +116,128 @@ export default function WorkCard(props) {
             </Card>
           </Col>
         ))}
+      </Row> */}
+      <Row xs={1} md={2} lg={4} className="g-4">
+        <Col style={cardStyle}>
+          <Card>
+            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Body>
+              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Text style={{ color: "black" }}>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+              <div style={{ margin: "0 auto" }}>
+                <a href="https://www.google.com" target="_blank">
+                  <Button variant="primary" style={buttonStyle}>
+                    Visit Deployed Demo
+                  </Button>
+                </a>
+                <a href="https://www.github.com" target="_blank">
+                  <Card.Img
+                    src={GitHubLogo}
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      display: "inline-block",
+                    }}
+                  />
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col style={cardStyle}>
+          <Card>
+            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Body>
+              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Text style={{ color: "black" }}>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+              <div style={{ margin: "0 auto" }}>
+                <a href="https://www.google.com" target="_blank">
+                  <Button variant="primary" style={buttonStyle}>
+                    Visit Deployed Demo
+                  </Button>
+                </a>
+                <a href="https://www.github.com" target="_blank">
+                  <Card.Img
+                    src={GitHubLogo}
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      display: "inline-block",
+                    }}
+                  />
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col style={cardStyle}>
+          <Card>
+            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Body>
+              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Text style={{ color: "black" }}>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+              <div style={{ margin: "0 auto" }}>
+                <a href="https://www.google.com" target="_blank">
+                  <Button variant="primary" style={buttonStyle}>
+                    Visit Deployed Demo
+                  </Button>
+                </a>
+                <a href="https://www.github.com" target="_blank">
+                  <Card.Img
+                    src={GitHubLogo}
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      display: "inline-block",
+                    }}
+                  />
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col style={cardStyle}>
+          <Card>
+            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Body>
+              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Text style={{ color: "black" }}>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+              <div style={{ margin: "0 auto" }}>
+                <a href="https://www.google.com" target="_blank">
+                  <Button variant="primary" style={buttonStyle}>
+                    Visit Deployed Demo
+                  </Button>
+                </a>
+                <a href="https://www.github.com" target="_blank">
+                  <Card.Img
+                    src={GitHubLogo}
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      display: "inline-block",
+                    }}
+                  />
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </>
   );

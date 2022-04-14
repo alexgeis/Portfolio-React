@@ -9,7 +9,7 @@ export default function Work() {
     position: "absolute",
     top: "300px",
     color: "#fff",
-    height: "480px",
+    height: "680px",
   };
 
   return (
@@ -17,7 +17,7 @@ export default function Work() {
       <section className="section work" style={workStyle}>
         {/* <WorkCarousel /> */}
         <WorkCard />
-        <Subtitle subTitle="Work" topPosSubTitle="80vh" />
+        {/* <Subtitle subTitle="Work" topPosSubTitle="800px" /> */}
       </section>
     </>
   );

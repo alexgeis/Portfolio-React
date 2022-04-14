@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubLogo from "../Assets/images/GitHub-Mark-32px.png";
 
 export default function Nav() {
   const navStyle = {
@@ -63,10 +64,7 @@ export default function Nav() {
         rel="noreferrer"
         style={navItemStyle}
       >
-        <img
-          src="../Assets/images/GitHub-Mark-32px.png"
-          alt="github logo"
-        ></img>
+        <img src={GitHubLogo} alt="github logo"></img>
       </a>
     </header>
   );
