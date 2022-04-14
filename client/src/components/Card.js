@@ -4,6 +4,8 @@ import GitHubLogo from "../Assets/images/GitHub-Mark-32px.png";
 import AllPainImg from "../Assets/images/all-pain-no-grain.png";
 import QuizImg from "../Assets/images/quiz-screenshot.png";
 import VibeLoungeImg from "../Assets/images/Vibe-Lounge-graph.png";
+import DayPlannerImg from "../Assets/images/Work-Day-Scheduler.png";
+import TextEditorImg from "../Assets/images/JATE-PWA-screenshot.png";
 
 export default function WorkCard(props) {
   const cardStyle = {
@@ -14,7 +16,8 @@ export default function WorkCard(props) {
     // background: "rgba(0,0,0,.6)",
     // padding: "5px",
     width: "300px",
-    margin: "30px auto",
+    margin: "30px 50px 280px 50px",
+    maxHeight: "100px",
   };
   const buttonStyle = {
     background: "#ff1b6b",
@@ -122,11 +125,11 @@ export default function WorkCard(props) {
           <Card>
             <Card.Img variant="top" src={VibeLoungeImg} />
             <Card.Body>
-              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Title style={{ color: "black" }}>Vibe Lounge</Card.Title>
               <Card.Text style={{ color: "black" }}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Match your mood to your web experience - Vibe Lounge serves up
+                tailored content to match your mood and tracks your emotional
+                state over repeated uses.
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
                 <a href="https://www.google.com" target="_blank">
@@ -150,13 +153,19 @@ export default function WorkCard(props) {
         </Col>
         <Col style={cardStyle}>
           <Card>
-            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Img
+              variant="top"
+              src={AllPainImg}
+              style={{ height: "145px" }}
+            />
             <Card.Body>
-              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Title style={{ color: "black" }}>
+                All Pain No Grain
+              </Card.Title>
               <Card.Text style={{ color: "black" }}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Track your fitness goals using Calendar.js. Users are able to
+                log in and future development plans will include more CRUD
+                operations and storage.
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
                 <a href="https://www.google.com" target="_blank">
@@ -180,21 +189,32 @@ export default function WorkCard(props) {
         </Col>
         <Col style={cardStyle}>
           <Card>
-            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Img
+              variant="top"
+              src={TextEditorImg}
+              style={{ height: "165px" }}
+            />
             <Card.Body>
-              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Title style={{ color: "black" }}>
+                Text Editor PWA
+              </Card.Title>
               <Card.Text style={{ color: "black" }}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                J.A.T.E. is a simple text editor in the browser used to saved
+                code snippets to a datase. App is available as a PWA download.
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
-                <a href="https://www.google.com" target="_blank">
+                <a
+                  href="https://pwa-text-editor-ang.herokuapp.com/"
+                  target="_blank"
+                >
                   <Button variant="primary" style={buttonStyle}>
                     Visit Deployed Demo
                   </Button>
                 </a>
-                <a href="https://www.github.com" target="_blank">
+                <a
+                  href="https://github.com/alexgeis/PWA-Text-Editor"
+                  target="_blank"
+                >
                   <Card.Img
                     src={GitHubLogo}
                     style={{
@@ -210,21 +230,35 @@ export default function WorkCard(props) {
         </Col>
         <Col style={cardStyle}>
           <Card>
-            <Card.Img variant="top" src={VibeLoungeImg} />
+            <Card.Img
+              variant="top"
+              src={DayPlannerImg}
+              style={{
+                width: "auto",
+                height: "auto",
+                maxWidth: "400px",
+                maxHeight: "140px",
+              }}
+            />
             <Card.Body>
-              <Card.Title style={{ color: "black" }}>WHERE MY TITLE</Card.Title>
+              <Card.Title style={{ color: "black" }}>Day Planner</Card.Title>
               <Card.Text style={{ color: "black" }}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Schedule events for your work day with visual indicators to show
+                where you are within your day. Results saved via Local Storage.
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
-                <a href="https://www.google.com" target="_blank">
+                <a
+                  href="https://alexgeis.github.io/Day-Planner/"
+                  target="_blank"
+                >
                   <Button variant="primary" style={buttonStyle}>
                     Visit Deployed Demo
                   </Button>
                 </a>
-                <a href="https://www.github.com" target="_blank">
+                <a
+                  href="https://github.com/alexgeis/Day-Planner/"
+                  target="_blank"
+                >
                   <Card.Img
                     src={GitHubLogo}
                     style={{
