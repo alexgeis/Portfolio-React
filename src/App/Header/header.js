@@ -7,24 +7,24 @@ import Work from "./Work/work";
 
 export default function Header() {
   const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
+    window.matchMedia("(min-width: 2500px)").matches
   );
 
   useEffect(() => {
     window
-      .matchMedia("(min-width: 768px)")
+      .matchMedia("(min-width: 2500px)")
       .addEventListener("change", (e) => setMatches(e.matches));
   }, []);
 
   const headerBigStyle = {
     position: "relative",
     color: "#fff",
-    height: "98vh",
+    height: "100vh",
   };
   const headerSmallStyle = {
     position: "relative",
     background: "linear-gradient(135deg,#ff1b6b,#45caff)",
-    height: "2500px",
+    height: "2000px",
   };
 
   return (
