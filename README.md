@@ -4,7 +4,7 @@
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
+Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
 
 You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
 
@@ -25,7 +25,6 @@ I then took inspiration from [Kepplar](https://brunosimon.github.io/keppler/) fo
 After setting up the navigation and anchor tags, I incorporated bootstrap and added card components for my work.
 The About and Contact sections came together quickly, so all that was left to finish the MVP portfolio is adding my signature at the bottom.
 
-
 ## Future Development
 
 -I would like to included more animation in the future, especially using Framer or Three.js.
@@ -35,5 +34,8 @@ The About and Contact sections came together quickly, so all that was left to fi
 ## Deployment Details
 
 Heroku Deployment: [React Profile](https://geis-profile-react.herokuapp.com/)
+CURRENTLY HAVING ISSUES DEPLOYING TO HEROKU
 
 GitHub Repo: [React Profile](https://github.com/alexgeis/Portfolio-React)
+
+Screenshot: ![React Profile](./client/src/Assets/images/React-profile-mobile.png)
