@@ -11,6 +11,10 @@ body {
 
 }
 
+h4 {
+    color: black;
+}
+
 /* SECTION STYLES */
 .headerBigStyle {
     position: relative;
@@ -51,7 +55,7 @@ body {
 }
 
 /* COMPONENT STYLES */
-backgroundStyle {
+.backgroundStyle {
     position: absolute;
     top: -10vh;
     left: 0;
@@ -63,7 +67,7 @@ backgroundStyle {
     z-index: -1;
   };
 
-bioStyle {
+.bioStyle {
     position: absolute;
     top: 300px;
     max-width: 50%;
@@ -72,7 +76,7 @@ bioStyle {
     padding: 5px;
 };
 
-cardStyle {
+.cardStyle {
     /*  position: absolute;
      top: 300px;
      maxWidth: 50%;
@@ -83,7 +87,8 @@ cardStyle {
     margin: 30px 50px 280px 50px;
     max-height: 100px;
   };
-  buttonStyle {
+
+  .buttonStyle {
     background: #ff1b6b;
     margin-right: 25px;
     /*  transition: 0.3s,
@@ -92,6 +97,45 @@ cardStyle {
        color: black,
      }, */
   };
+
+  /* CAROUSAL - CURRENTLY UNUSED */
+   /* .workCardStyle {
+       position: absolute;
+       top: 150px;
+       top: props.topPosTitle;
+       left: 0;
+       right: 0;
+       paddingLeft: 20px;
+       paddingRight: 20px;
+       textAlign: center;
+       border: props.borderTitle;
+       borderRadius: props.borderRadiusTitle;
+       marginLeft: auto;
+       marginRight: auto;
+       width: props.widthTitle;
+       background: props.backgroundTitle;
+     };
+  
+      .workCardBgStyle {
+       display: inline-block;
+       position: relative;
+       verticalAlign: middle;
+       padding: 10px;
+       marginLeft: 7px;
+       marginRight: 7px;
+     }; */
+
+      footerStyle  {
+        position: absolute;
+        /* bottom: 40px; */
+        right: 40px;
+        /* width: 100%; */
+        height: 40px;
+        background: linear-gradient(135deg,#ff1b6b,#45caff);
+         /* transform: skewY(-5deg);
+         boxShadow: 0 0 50px rgb(60 117 162 / 40%);
+         margin: 0 0 0 0; */
+      };
 
 /* MEDIA QUIERIES */
 @media screen and (max-width: 768px) {
