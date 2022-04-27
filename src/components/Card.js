@@ -8,27 +8,6 @@ import DayPlannerImg from "../Assets/images/Work-Day-Scheduler.png";
 import TextEditorImg from "../Assets/images/JATE-PWA-screenshot.png";
 
 export default function WorkCard(props) {
-  const cardStyle = {
-    // position: "absolute",
-    // top: "300px",
-    // maxWidth: "50%",
-    // maxHeight: "40%",
-    // background: "rgba(0,0,0,.6)",
-    // padding: "5px",
-    width: "300px",
-    margin: "30px 50px 280px 50px",
-    maxHeight: "100px",
-  };
-  const buttonStyle = {
-    background: "#ff1b6b",
-    marginRight: "25px",
-    // transition: "0.3s",
-    // "&:hover": {
-    //   background: "#45caff",
-    //   color: "black",
-    // },
-  };
-
   return (
     <>
       {/* <CardGroup style={{ width: "40%", margin: "0 auto" }}>
@@ -98,7 +77,7 @@ export default function WorkCard(props) {
                 <div style={{ margin: "0 auto" }}>
                   {props.demoLink && (
                     <a href="https://www.google.com" target="_blank">
-                      <Button variant="primary" style={buttonStyle}>
+                      <Button variant="primary" className="buttonStyle">
                         Visit Deployed Demo
                       </Button>
                     </a>
@@ -120,7 +99,7 @@ export default function WorkCard(props) {
         ))}
       </Row> */}
       <Row xs={1} md={2} lg={4} className="g-4">
-        <Col style={cardStyle}>
+        <Col className="cardStyle">
           <Card>
             <Card.Img variant="top" src={VibeLoungeImg} />
             <Card.Body>
@@ -132,7 +111,7 @@ export default function WorkCard(props) {
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
                 <a href="https://www.google.com" target="_blank">
-                  <Button variant="primary" style={buttonStyle}>
+                  <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
                   </Button>
                 </a>
@@ -150,7 +129,7 @@ export default function WorkCard(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col style={cardStyle}>
+        <Col className="cardStyle">
           <Card>
             <Card.Img
               variant="top"
@@ -168,7 +147,7 @@ export default function WorkCard(props) {
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
                 <a href="https://www.google.com" target="_blank">
-                  <Button variant="primary" style={buttonStyle}>
+                  <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
                   </Button>
                 </a>
@@ -186,7 +165,7 @@ export default function WorkCard(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col style={cardStyle}>
+        <Col className="cardStyle">
           <Card>
             <Card.Img
               variant="top"
@@ -206,7 +185,7 @@ export default function WorkCard(props) {
                   href="https://pwa-text-editor-ang.herokuapp.com/"
                   target="_blank"
                 >
-                  <Button variant="primary" style={buttonStyle}>
+                  <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
                   </Button>
                 </a>
@@ -227,7 +206,7 @@ export default function WorkCard(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col style={cardStyle}>
+        <Col className="cardStyle">
           <Card>
             <Card.Img
               variant="top"
@@ -250,7 +229,7 @@ export default function WorkCard(props) {
                   href="https://alexgeis.github.io/Day-Planner/"
                   target="_blank"
                 >
-                  <Button variant="primary" style={buttonStyle}>
+                  <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
                   </Button>
                 </a>
