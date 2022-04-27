@@ -1,23 +1,6 @@
 import React from "react";
 
 export default function Title(props) {
-  const titleStyle = {
-    position: "absolute",
-    // top: "150px",
-    top: props.topPosTitle,
-    left: "0",
-    right: "0",
-    // paddingLeft: "20px",
-    // paddingRight: "20px",
-    textAlign: "center",
-    border: props.borderTitle,
-    borderRadius: props.borderRadiusTitle,
-    marginLeft: "auto",
-    marginRight: "auto",
-    width: props.widthTitle,
-    background: props.backgroundTitle,
-  };
-
   // const titleBgStyle = {
   //   display: "inline-block",
   //   position: "relative",
@@ -48,12 +31,12 @@ export default function Title(props) {
   //   marginRight: "7px",
   // };
   return (
-    <h1 className="title" style={titleStyle}>
-      {/* <span className="titleBg" style={titleBgStyle}></span> */}
-      <span className="title" style={titleWordStyle} id={props.titleId}>
+    <h1 className="title titleStyle">
+      {/* <span className="titleBg titleBgStyle"></span> */}
+      <span className="title titleWordStyle" id={props.titleId}>
         {props.title}
       </span>
-      {/* <span className="avatar" style={titleAvatarStyle}></span> */}
+      {/* <span className="avatar titleAvatarStyle"></span> */}
     </h1>
   );
 }

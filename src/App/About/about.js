@@ -8,15 +8,7 @@ export default function About() {
   return (
     <>
       <section className="section about aboutStyle">
-        <Title
-          title="About"
-          topPosTitle="50px"
-          borderRadiusTitle="19px"
-          borderTitle="#45caff 2px solid"
-          widthTitle="275px"
-          backgroundTitle="linear-gradient(200deg,#45caff,#ff1b6b)"
-          titleId="about"
-        />
+        <Title title="About" titleId="aboutTitle" />
         <Photo />
       </section>
     </>

@@ -22,8 +22,8 @@ export default function Header() {
         <section className="section header headerBigStyle">
           <Background />
           <Nav />
-          <Title title="Alex Geis" topPosTitle="150px" />
-          <Subtitle subTitle="Full-Stack Developer" topPosSubTitle="240px" />
+          <Title title="Alex Geis" titleId="headerTitleMatch" />
+          <Subtitle subTitle="Full-Stack Developer" id="headerSubtitleMatch" />
           <Work />
         </section>
       )}
@@ -31,11 +31,10 @@ export default function Header() {
         <section className="section header headerSmallStyle">
           {/* <Background /> */}
           <Nav />
-          <Title title="Alex Geis" topPosTitle="150px" textColor="white" />
+          <Title title="Alex Geis" titleId="headerTitleNoMatch" />
           <Subtitle
             subTitle="Full-Stack Developer"
-            topPosSubTitle="240px"
-            textColor="white"
+            id="headerSubtitleNoMatch"
           />
           <Work />
         </section>

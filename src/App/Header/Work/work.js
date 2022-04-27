@@ -21,14 +21,14 @@ export default function Work() {
         <section className="section work workBigStyle">
           {/* <WorkCarousel /> */}
           <WorkCard />
-          {/* <Subtitle subTitle="Work" topPosSubTitle="800px" /> */}
+          {/* <Subtitle subTitle="Work" id="workSubtitle" /> */}
         </section>
       )}
       {!matches && (
         <section className="section work workSmallStyle">
           {/* <WorkCarousel /> */}
           <WorkCard />
-          {/* <Subtitle subTitle="Work" topPosSubTitle="800px" /> */}
+          {/* <Subtitle subTitle="Work" id="workSubtitle" /> */}
         </section>
       )}
     </>

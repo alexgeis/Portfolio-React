@@ -10,14 +10,7 @@ export default function Contact() {
     <>
       <section className="section contact contactStyle">
         <Background />
-        <Title
-          title="Contact"
-          topPosTitle="20px"
-          borderRadiusTitle="19px"
-          borderTitle="#45caff 2px solid"
-          widthTitle="275px"
-          titleId="contact"
-        />
+        <Title title="Contact" titleId="contactTitle" />
         <Form />
       </section>
     </>

@@ -7,9 +7,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/* body {
 
-}
+} */
 
 h4 {
     color: black;
@@ -190,6 +190,72 @@ h4 {
         background-position: center;
         background-repeat: no-repeat;
       };
+
+.subTitleStyle {
+        position: absolute;
+        /* top: props.topPosSubTitle; */
+        left: 0;
+        right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        line-height: 1.5em;
+        font-size: 25px;
+        font-weight: 300;
+        /* color: props.textColor; */
+      };
+
+      #headerSubtitleMatch {
+          top: 240px;
+      }
+      #headerSubtitleNoMatch {
+          top: 240px;
+          color: white;
+      }
+      #workSubtitle {
+          top: 800px;
+      }
+
+.titleStyle {
+        position: absolute;
+         /* top: 150px; */
+        /* top: props.topPosTitle; */
+        left: 0;
+        right: 0;
+         /* paddingLeft: 20px; */
+         /* paddingRight: 20px; */
+        text-align: center;
+        /* border: props.borderTitle;
+        border-radius: props.borderRadiusTitle; */
+        margin-left: auto;
+        margin-right: auto;
+        /* width: props.widthTitle;
+        background: props.backgroundTitle; */
+      };
+
+#headerTitleMatch {
+    top:150px;
+}
+#headerTitleNoMatch {
+    top: 150px;
+    color: white
+}
+#aboutTitle {
+    top: 50px;
+    border:#45caff 2px solid ;
+    border-radius: 19px;
+    width: 275px;
+    background: linear-gradient(200deg,#45caff,#ff1b6b);
+}
+#contactTitle {
+    top: 20px;
+    border: #45caff 2px solid;
+    border-radius: 19px;
+    width: 275px;
+    /* background: ; */
+}
+
+
 /* MEDIA QUIERIES */
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
