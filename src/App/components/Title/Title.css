@@ -1,0 +1,50 @@
+.titleStyle {
+    position: absolute;
+     /* top: 150px; */
+    /* top: props.topPosTitle; */
+    left: 0;
+    right: 0;
+     /* paddingLeft: 20px; */
+     /* paddingRight: 20px; */
+    text-align: center;
+    /* border: props.borderTitle;
+    border-radius: props.borderRadiusTitle; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: props.widthTitle;
+    background: props.backgroundTitle; */
+  };
+
+#headerTitleMatch {
+top:150px;
+}
+#headerTitleNoMatch {
+top: 150px;
+color: white
+}
+#aboutTitle {
+top: 50px;
+border:#45caff 2px solid ;
+border-radius: 19px;
+width: 275px;
+background: linear-gradient(200deg,#45caff,#ff1b6b);
+}
+#contactTitle {
+top: 20px;
+border: #45caff 2px solid;
+border-radius: 19px;
+width: 275px;
+/* background: ; */
+}
+.titleWordStyle {
+display: inline-block;
+position: relative;
+vertical-align: middle;
+padding: 10px;
+margin-left: 7px;
+margin-right: 7px;
+font-size: 60px;
+text-align: center;
+line-height: 1.5em;
+/* color: props.textColor; */
+};

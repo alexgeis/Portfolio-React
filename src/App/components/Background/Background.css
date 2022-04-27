@@ -1,0 +1,11 @@
+.backgroundStyle {
+    position: absolute;
+    top: -10vh;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 10vh);
+    background: linear-gradient(135deg,#ff1b6b,#45caff);
+    transform: skewY(-5deg);
+    box-shadow: 0 0 50px rgb(60 117 162 / 40%);
+    z-index: -1;
+  };

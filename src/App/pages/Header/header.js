@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Nav from "../../components/Nav";
-import Background from "../../components/Background";
-import Title from "../../components/Title";
-import Subtitle from "../../components/Subtitle";
+import Nav from "../../components/Nav/Nav";
+import Background from "../../components/Background/Background";
+import Title from "../../components/Title/Title";
+import Subtitle from "../../components/Subtitle/Subtitle";
 import Work from "./Work/work";
 
 export default function Header() {

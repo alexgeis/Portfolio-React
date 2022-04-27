@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import Title from "./Title";
 // import Subtitle from "../../../components/Subtitle";
 // import WorkCarousel from "../../../components/Carousel";
-import WorkCard from "../../../components/Card";
+import WorkCard from "../../../components/Card/Card";
 
 export default function Work() {
   const [matches, setMatches] = useState(

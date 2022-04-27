@@ -4,10 +4,9 @@ import React from "react";
 import Header from "./pages/Header/header";
 import About from "./pages/About/about";
 import Contact from "./pages/Contact/contact";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 // import Home from "../pages/Home";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./app.css";
 
 // Import our list of users from users.js
 // import users from "./users";

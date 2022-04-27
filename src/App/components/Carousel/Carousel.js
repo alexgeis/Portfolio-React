@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import "./Carousel.css";
 
 export default function WorkCarousel(props) {
   //// props

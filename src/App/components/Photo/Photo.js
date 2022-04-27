@@ -1,5 +1,6 @@
 import React from "react";
-import Bio from "./Bio";
+import Bio from "../Bio/Bio";
+import "./Photo.css";
 
 export default function Photo() {
   return (

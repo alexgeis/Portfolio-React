@@ -1,4 +1,5 @@
 import React from "react";
+import "./Title.css";
 
 export default function Title(props) {
   // const titleBgStyle = {
@@ -10,18 +11,6 @@ export default function Title(props) {
   //   marginRight: "7px",
   // };
 
-  const titleWordStyle = {
-    display: "inline-block",
-    position: "relative",
-    verticalAlign: "middle",
-    padding: "10px",
-    marginLeft: "7px",
-    marginRight: "7px",
-    fontSize: "60px",
-    textAlign: "center",
-    lineHeight: "1.5em",
-    color: props.textColor,
-  };
   // const titleAvatarStyle = {
   //   display: "inline-block",
   //   position: "relative",

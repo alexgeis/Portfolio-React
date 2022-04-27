@@ -1,0 +1,26 @@
+/* CAROUSAL - CURRENTLY UNUSED */
+   /* .workCardStyle {
+       position: absolute;
+       top: 150px;
+       top: props.topPosTitle;
+       left: 0;
+       right: 0;
+       paddingLeft: 20px;
+       paddingRight: 20px;
+       textAlign: center;
+       border: props.borderTitle;
+       borderRadius: props.borderRadiusTitle;
+       marginLeft: auto;
+       marginRight: auto;
+       width: props.widthTitle;
+       background: props.backgroundTitle;
+     };
+  
+      .workCardBgStyle {
+       display: inline-block;
+       position: relative;
+       verticalAlign: middle;
+       padding: 10px;
+       marginLeft: 7px;
+       marginRight: 7px;
+     }; */

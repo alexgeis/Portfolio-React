@@ -1,12 +1,13 @@
 import React from "react";
 import { Card, Row, Col, Button } from "react-bootstrap";
 // import { CardGroup} from "react-bootstrap";
-import GitHubLogo from "../../Assets/images/GitHub-Mark-32px.png";
-import AllPainImg from "../../Assets/images/all-pain-no-grain.png";
+import GitHubLogo from "../../../Assets/images/GitHub-Mark-32px.png";
+import AllPainImg from "../../../Assets/images/all-pain-no-grain.png";
 // import QuizImg from "../Assets/images/quiz-screenshot.png";
-import VibeLoungeImg from "../../Assets/images/Vibe-Lounge-graph.png";
-import DayPlannerImg from "../../Assets/images/Work-Day-Scheduler.png";
-import TextEditorImg from "../../Assets/images/JATE-PWA-screenshot.png";
+import VibeLoungeImg from "../../../Assets/images/Vibe-Lounge-graph.png";
+import DayPlannerImg from "../../../Assets/images/Work-Day-Scheduler.png";
+import TextEditorImg from "../../../Assets/images/JATE-PWA-screenshot.png";
+import "./Card.css";
 
 export default function WorkCard(props) {
   return (

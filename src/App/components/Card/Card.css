@@ -1,0 +1,21 @@
+.cardStyle {
+    /*  position: absolute;
+     top: 300px;
+     maxWidth: 50%;
+     maxHeight: 40%;
+     background: rgba(0,0,0,.6);
+     padding: 5px; */
+    width: 300px;
+    margin: 30px 50px 280px 50px;
+    max-height: 100px;
+  };
+
+  .buttonStyle {
+    background: #ff1b6b;
+    margin-right: 25px;
+    /*  transition: 0.3s,
+     &:hover: {
+       background: #45caff,
+       color: black,
+     }, */
+  };
