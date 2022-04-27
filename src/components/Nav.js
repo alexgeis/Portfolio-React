@@ -2,67 +2,31 @@ import React from "react";
 import GitHubLogo from "../Assets/images/GitHub-Mark-32px.png";
 
 export default function Nav() {
-  const navStyle = {
-    position: "absolute",
-    top: "40px",
-    left: "40px",
-    fontWeight: "300",
-    border: "white 2px solid",
-    borderRadius: "19px",
-  };
-
-  const navItemStyle = {
-    display: "inline-block",
-    position: "relative",
-    verticalAlign: "middle",
-    padding: "10px",
-    marginLeft: "7px",
-    marginRight: "7px",
-    color: "white",
-    fontSize: "20px",
-    cursor: "pointer",
-  };
-
-  // const navItemGithubStyle = {
-  //   display: "inline-block",
-  //   position: "relative",
-  //   verticalAlign: "middle",
-  //   padding: "10px",
-  //   marginLeft: "7px",
-  //   marginRight: "7px",
-  //   color: "white",
-  //   backgroundImage: "url(../Assets/images/GitHub-Mark-32px.png)",
-  // };
-
   return (
-    <header className="navigation" style={navStyle}>
+    <header className="navigation navStyle">
       <a
-        className="item underline get-started js-scroll-item"
+        className="item underline get-started js-scroll-item navItemStyle"
         href="#work"
-        style={navItemStyle}
       >
         Work
       </a>
       <a
-        className="item underline whos-using-it js-scroll-item"
+        className="item underline whos-using-it js-scroll-item navItemStyle"
         href="#contact"
-        style={navItemStyle}
       >
         Contact
       </a>
       <a
-        className="item underline features js-scroll-item"
+        className="item underline features js-scroll-item navItemStyle"
         href="#about"
-        style={navItemStyle}
       >
         About
       </a>
       <a
-        className="item underline github"
+        className="item underline github navItemStyle"
         href="https://github.com/alexgeis/"
         target="_blank"
         rel="noreferrer"
-        style={navItemStyle}
       >
         <img src={GitHubLogo} alt="github logo"></img>
       </a>
