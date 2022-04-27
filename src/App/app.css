@@ -125,7 +125,7 @@ h4 {
        marginRight: 7px;
      }; */
 
-      footerStyle  {
+      .footerStyle  {
         position: absolute;
         /* bottom: 40px; */
         right: 40px;
@@ -135,6 +135,28 @@ h4 {
          /* transform: skewY(-5deg);
          boxShadow: 0 0 50px rgb(60 117 162 / 40%);
          margin: 0 0 0 0; */
+      };
+
+.formStyle {
+         /* position: absolute;
+         top: 180px;
+         left: 44.2%; */
+        margin: 0 auto;
+        width: 30%;
+        z-index: 1;
+      };
+.formDivStyle {
+        position: relative;
+        top: 180px;
+         /* left: 44.2%; */
+        margin: 20px;
+        z-index: 1;
+      };
+.inputStyle {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
       };
 
 /* MEDIA QUIERIES */

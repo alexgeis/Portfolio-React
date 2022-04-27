@@ -2,67 +2,53 @@ import React, { useState } from "react";
 // import "./style.css";
 
 function Form() {
-  const formStyle = {
-    // position: "absolute",
-    // top: "180px",
-    // left: "44.2%",
-    margin: "0 auto",
-    width: "30%",
-    zIndex: "1",
-  };
-  const formDivStyle = {
-    position: "relative",
-    top: "180px",
-    // left: "44.2%",
-    margin: "20px",
-    index: "1",
-  };
-  const inputStyle = {
-    display: "block",
-    marginTop: "5px",
-    marginBottom: "5px",
-    width: "100%",
-  };
-  // Here we set two state variables for firstName and lastName using `useState`
-  // 1st variable in array = name of state variable
-  // 2nd = update method for state change
-  // useState(x)    -    x = initial value
   const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { name, value } = e.target;
 
-    // Ternary statement that will call either setFullName or setMessage based on what field the user is typing in
-    return name === "fullName" ? setFullName(value) : setMessage(value);
+    // conditional statement that will call either setFullName, setEmail or setMessage based on what field the user is typing in
+    if (name === "fullName") setFullName(value);
+    else if (name === "email") setEmail(value);
+    else setMessage(value);
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${fullName} ${message}`);
+    // Alert the user their full name, clear the inputs
+    alert(`Hello ${fullName}`);
     setFullName("");
+    setEmail("");
     setMessage("");
   };
 
   return (
-    <div style={formDivStyle}>
+    <div className="formDivStyle">
       {/* TERNARY - if no name show message, if name show name */}
       <p style={{ textAlign: "center" }}>
         Hey there friend, let's get in touch
       </p>
 
-      <form className="form" style={formStyle}>
+      <form className="form formStyle">
         <input
           value={fullName}
           name="fullName"
           onChange={handleInputChange}
           type="text"
           placeholder="Full Name"
-          style={inputStyle}
+          className="inputStyle"
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Your email here..."
+          className="inputStyle"
         />
         <input
           value={message}
@@ -70,7 +56,7 @@ function Form() {
           onChange={handleInputChange}
           type="textarea"
           placeholder="Your message here..."
-          style={inputStyle}
+          className="inputStyle"
         />
         <button type="button" onClick={handleFormSubmit}>
           Submit
