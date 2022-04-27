@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
+// import { useEffect } from "react";
 // import List from "./List";
-import Header from "./Header/header";
-import About from "./About/about";
-import Contact from "./Contact/contact";
-import Footer from "../components/Footer";
-import Home from "../pages/Home";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./pages/Header/header";
+import About from "./pages/About/about";
+import Contact from "./pages/Contact/contact";
+import Footer from "./components/Footer";
+// import Home from "../pages/Home";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./app.css";
 
 // Import our list of users from users.js

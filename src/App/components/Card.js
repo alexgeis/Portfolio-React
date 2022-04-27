@@ -1,11 +1,12 @@
 import React from "react";
-import { Card, CardGroup, Row, Col, Button } from "react-bootstrap";
-import GitHubLogo from "../Assets/images/GitHub-Mark-32px.png";
-import AllPainImg from "../Assets/images/all-pain-no-grain.png";
-import QuizImg from "../Assets/images/quiz-screenshot.png";
-import VibeLoungeImg from "../Assets/images/Vibe-Lounge-graph.png";
-import DayPlannerImg from "../Assets/images/Work-Day-Scheduler.png";
-import TextEditorImg from "../Assets/images/JATE-PWA-screenshot.png";
+import { Card, Row, Col, Button } from "react-bootstrap";
+// import { CardGroup} from "react-bootstrap";
+import GitHubLogo from "../../Assets/images/GitHub-Mark-32px.png";
+import AllPainImg from "../../Assets/images/all-pain-no-grain.png";
+// import QuizImg from "../Assets/images/quiz-screenshot.png";
+import VibeLoungeImg from "../../Assets/images/Vibe-Lounge-graph.png";
+import DayPlannerImg from "../../Assets/images/Work-Day-Scheduler.png";
+import TextEditorImg from "../../Assets/images/JATE-PWA-screenshot.png";
 
 export default function WorkCard(props) {
   return (
@@ -110,12 +111,20 @@ export default function WorkCard(props) {
                 state over repeated uses.
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
-                <a href="https://www.google.com" target="_blank">
+                <a
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
                   </Button>
                 </a>
-                <a href="https://www.github.com" target="_blank">
+                <a
+                  href="https://www.github.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Card.Img
                     src={GitHubLogo}
                     style={{
@@ -146,12 +155,20 @@ export default function WorkCard(props) {
                 operations and storage.
               </Card.Text>
               <div style={{ margin: "0 auto" }}>
-                <a href="https://www.google.com" target="_blank">
+                <a
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
                   </Button>
                 </a>
-                <a href="https://www.github.com" target="_blank">
+                <a
+                  href="https://www.github.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Card.Img
                     src={GitHubLogo}
                     style={{
@@ -184,6 +201,7 @@ export default function WorkCard(props) {
                 <a
                   href="https://pwa-text-editor-ang.herokuapp.com/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
@@ -192,6 +210,7 @@ export default function WorkCard(props) {
                 <a
                   href="https://github.com/alexgeis/PWA-Text-Editor"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Card.Img
                     src={GitHubLogo}
@@ -228,6 +247,7 @@ export default function WorkCard(props) {
                 <a
                   href="https://alexgeis.github.io/Day-Planner/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Button variant="primary" className="buttonStyle">
                     Visit Deployed Demo
@@ -236,6 +256,7 @@ export default function WorkCard(props) {
                 <a
                   href="https://github.com/alexgeis/Day-Planner/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Card.Img
                     src={GitHubLogo}

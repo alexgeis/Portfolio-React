@@ -254,6 +254,18 @@ h4 {
     width: 275px;
     /* background: ; */
 }
+.titleWordStyle {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5em;
+    /* color: props.textColor; */
+  };
 
 
 /* MEDIA QUIERIES */

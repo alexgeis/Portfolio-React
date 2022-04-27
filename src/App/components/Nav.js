@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubLogo from "../Assets/images/GitHub-Mark-32px.png";
+import GitHubLogo from "../../Assets/images/GitHub-Mark-32px.png";
 
 export default function Nav() {
   return (

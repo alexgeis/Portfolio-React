@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import Title from "./Title";
-import Subtitle from "../../../components/Subtitle";
-import WorkCarousel from "../../../components/Carousel";
+// import Subtitle from "../../../components/Subtitle";
+// import WorkCarousel from "../../../components/Carousel";
 import WorkCard from "../../../components/Card";
 
 export default function Work() {
