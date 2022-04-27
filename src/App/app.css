@@ -1,0 +1,33 @@
+* {
+
+}
+
+body {
+
+}
+
+.headerBigStyle {
+    position: relative;
+    color: #fff;
+    height: 100vh;
+}
+.headerSmallStyle {
+    position: relative;
+    background: linear-gradient(135deg,#ff1b6b,#45caff);
+    height: 1200px;
+}
+
+.workBigStyle {
+    position: absolute;
+    top: 300px;
+    left: 10%;
+    color: #fff;
+    height: 680px;
+}
+
+.workSmallStyle {
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    height: 680px;
+};

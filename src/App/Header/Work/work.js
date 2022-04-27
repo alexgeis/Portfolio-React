@@ -15,31 +15,17 @@ export default function Work() {
       .addEventListener("change", (e) => setMatches(e.matches));
   }, []);
 
-  const workBigStyle = {
-    position: "absolute",
-    top: "300px",
-    left: "10%",
-    color: "#fff",
-    height: "680px",
-  };
-  const workSmallStyle = {
-    position: "absolute",
-    top: "300px",
-    color: "#fff",
-    height: "680px",
-  };
-
   return (
     <>
       {matches && (
-        <section className="section work" style={workBigStyle}>
+        <section className="section work workBigStyle">
           {/* <WorkCarousel /> */}
           <WorkCard />
           {/* <Subtitle subTitle="Work" topPosSubTitle="800px" /> */}
         </section>
       )}
       {!matches && (
-        <section className="section work" style={workSmallStyle}>
+        <section className="section work workSmallStyle">
           {/* <WorkCarousel /> */}
           <WorkCard />
           {/* <Subtitle subTitle="Work" topPosSubTitle="800px" /> */}

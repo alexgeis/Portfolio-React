@@ -16,34 +16,19 @@ export default function Header() {
       .addEventListener("change", (e) => setMatches(e.matches));
   }, []);
 
-  const headerBigStyle = {
-    position: "relative",
-    color: "#fff",
-    height: "100vh",
-  };
-  const headerSmallStyle = {
-    position: "relative",
-    background: "linear-gradient(135deg,#ff1b6b,#45caff)",
-    height: "2000px",
-  };
-
   return (
     <>
       {matches && (
-        <section className="section header" style={headerBigStyle}>
+        <section className="section header headerBigStyle">
           <Background />
-          <Nav
-          // name={canine.name}
-          // description={canine.description}
-          // id={canine.id}
-          />
+          <Nav />
           <Title title="Alex Geis" topPosTitle="150px" />
           <Subtitle subTitle="Full-Stack Developer" topPosSubTitle="240px" />
           <Work />
         </section>
       )}
       {!matches && (
-        <section className="section header" style={headerSmallStyle}>
+        <section className="section header headerSmallStyle">
           {/* <Background /> */}
           <Nav />
           <Title title="Alex Geis" topPosTitle="150px" textColor="white" />

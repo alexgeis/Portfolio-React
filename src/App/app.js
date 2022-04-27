@@ -6,6 +6,7 @@ import Contact from "./Contact/contact";
 import Footer from "../components/Footer";
 import Home from "../pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./app.css";
 
 // Import our list of users from users.js
 // import users from "./users";
