@@ -6,15 +6,9 @@ import Form from "../../components/Form";
 // import Subtitle from "./Subtitle";
 
 export default function Contact() {
-  const contactStyle = {
-    position: "relative",
-    color: "#fff",
-    height: "540px",
-  };
-
   return (
     <>
-      <section className="section contact" style={contactStyle}>
+      <section className="section contact contactStyle">
         <Background />
         <Title
           title="Contact"
@@ -25,13 +19,6 @@ export default function Contact() {
           titleId="contact"
         />
         <Form />
-        {/*
-        <Nav
-        // name={canine.name}
-        // description={canine.description}
-        // id={canine.id}
-        />
-        <Subtitle /> */}
       </section>
     </>
   );

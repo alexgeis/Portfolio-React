@@ -31,3 +31,9 @@ body {
     color: #fff;
     height: 680px;
 };
+
+.contactStyle {
+    position: relative;
+    color: #fff;
+    height: 540px;
+}
