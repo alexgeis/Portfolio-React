@@ -37,3 +37,9 @@ body {
     color: #fff;
     height: 540px;
 }
+
+.aboutStyle {
+    position: relative;
+    color: white;
+    height: 900px;
+}

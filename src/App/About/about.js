@@ -5,15 +5,9 @@ import Photo from "../../components/Photo";
 // import Subtitle from "./Subtitle";
 
 export default function About() {
-  const aboutStyle = {
-    position: "relative",
-    color: "white",
-    height: "900px",
-  };
-
   return (
     <>
-      <section className="section about" style={aboutStyle}>
+      <section className="section about aboutStyle">
         <Title
           title="About"
           topPosTitle="50px"
