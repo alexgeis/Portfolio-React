@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b23cb888.css",
+    "main.js": "/static/js/main.a6f69ec8.js",
+    "static/media/all-pain-no-grain.png": "/static/media/all-pain-no-grain.c1884493984f2f8b618b.png",
+    "static/media/Work-Day-Scheduler.png": "/static/media/Work-Day-Scheduler.44e3d3ac0bb4c88ac141.png",
+    "static/media/Vibe-Lounge-graph.png": "/static/media/Vibe-Lounge-graph.f40b14d8513c65491aa8.png",
+    "static/media/JATE-PWA-screenshot.png": "/static/media/JATE-PWA-screenshot.43e8e047195c5fcc5a70.png",
+    "index.html": "/index.html",
+    "main.b23cb888.css.map": "/static/css/main.b23cb888.css.map",
+    "main.a6f69ec8.js.map": "/static/js/main.a6f69ec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b23cb888.css",
+    "static/js/main.a6f69ec8.js"
+  ]
+}
